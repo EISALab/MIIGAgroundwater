@@ -1,0 +1,49 @@
+optdemo.wel 	0
+uma4.res	0
+
+optdemo_coarse.adv	1
+optdemo_coarse.btn	1
+optdemo_coarse.ccf	1
+optdemo_coarse.dsp	1
+//optdemo_coarse.ftl	1
+optdemo_coarse.gcg	1
+optdemo_coarse.lmt	1
+//optdemo_coarse.lst	1
+optdemo_coarse.oc	1
+optdemo_coarse.pcg	1
+optdemo_coarse.rch	1
+optdemo_coarse.rct	1
+optdemo_coarse.ssm	1
+optdemo_coarse.ufh	1
+
+optdemo_fine.adv	1
+optdemo_fine.btn	1
+optdemo_fine.dsp	1
+//optdemo_fine.ftl
+optdemo_fine.gcg	1
+optdemo_fine.lmt	1
+//optdemo_fine.lst
+optdemo_fine.oc 	1
+optdemo_fine.out	1
+optdemo_fine.pcg	1
+optdemo_fine.rch	1
+optdemo_fine.rct	1
+optdemo_fine.ssm	1
+optdemo_fine.adv	1
+pstobj_coarse.in	1
+pstobj_fine.in		1
+sconc_coarse.arr	1
+sconc_fine.arr		1
+TEST_coarse.ba6		1
+TEST_coarse.bc6		1
+TEST_coarse.dis		1
+TEST_coarse.nam		1
+TEST_fine.ba6		1
+TEST_fine.bc6		1
+TEST_fine.dis		1
+TEST_fine.nam		1
+test_mt3d_coarse.nam	1
+test_mt3d_fine.nam	1
+umatilla_input_coarse.fil	1
+umatilla_input_fine.fil		1
+//surrga    	1

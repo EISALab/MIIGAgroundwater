@@ -1,0 +1,174 @@
+C     Last change:  ERB  26 Jul 2002    1:30 pm
+CGR PARALLEL CODE FOR MODFLOW-2000
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1IN
+C
+C     INITIALIZE PROCESSOR INFORMATION
+C
+      INCLUDE 'parallel.inc'
+C
+      MYID = 0
+      MPROC = 0
+      NUMPROCS = 1
+C
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1OP(IERRU,IERR)
+      USE MPI_MODULE
+      CHARACTER*(11) FN, FILENAME
+C
+      IERR = 0
+C      FN = 'mf2kerr.p00'
+C      APPEND_PID called by Eva Sinha
+C      FILENAME = FN
+C      CALL APPEND_PID(FILENAME)
+C      OPEN(UNIT=IERRU,FILE=FILENAME, STATUS = 'UNKNOWN')
+C      OPEN(UNIT=IERRU,FILE=FN)
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1FN(FNAME)
+      CHARACTER*(*) FNAME
+C
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1AS (NPE)
+C
+C     ASSIGN PARAMETERS TO PROCESSORS
+C
+      INCLUDE 'parallel.inc'
+C
+      IPDO(0)=-1
+C     BECAUSE PARALLEL PROCESSING IS NOT ENABLED, ALL PARAMETERS ARE
+C     ASSIGN TO MPI PROCESS 0
+      DO NPSET=1,NPE
+        IPDO(NPSET)=0
+      ENDDO
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1MX (X,XND,IL,JL)
+C
+C     MERGE X, A REPLICATED ARRAY USING A SUM ACTIVITY.
+C
+      DIMENSION X(IL,JL), XND(JL)
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1CV(IFO)
+C      SIMPLE ROUTINE TO BROADCAST IFO
+C MUST BE CALLED ON ALL PROCESSORS.
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1BA(AB,NDATA)
+C      SIMPLE ROUTINE TO BROADCAST ARRAY AB, NDATA ITEMS
+C MUST BE CALLED ON ALL PROCESSORS.
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1CL
+      RETURN
+      END
+
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1BR()
+C
+      RETURN
+      END
+
+C=======================================================================
+      SUBROUTINE PLL1EH(IERR,IERRU,IOUT,IOUTG,MINERR)
+C     VERSION 20000215 ERB
+C     ******************************************************************
+C     ERROR-HANDLING ROUTINE:  CHECK FOR ERROR CONDITION RAISED BY ANY
+C     MPI PROCESS.  IF ANY MPI PROCESS REPORTS AN ERROR, CLOSE FILES ON
+C     ALL PROCESSES AND STOP ALL MPI PROCESSES
+C     ******************************************************************
+C
+      IF (IERR.GT.0) CALL PLL1SD(IERR,IERRU,IOUT,IOUTG)
+      MINERR = IERR
+C
+      RETURN
+      END
+C ----------------------------------------------------------------------
+      SUBROUTINE PLL1SD(IERR,IERRU,IOUT,IOUTG)
+C     VERSION 20000215 ERB
+C     ******************************************************************
+C     FOR SERIAL-PROCESSING ENVIRONMENT:  CLOSE ALL FILES AND STOP
+C     ******************************************************************
+C        SPECIFICATIONS:
+C     ------------------------------------------------------------------
+      USE MPI_MODULE
+      LOGICAL LOP
+      CHARACTER*12 FN, FILENAME
+      INCLUDE 'parallel.inc'
+C     ---------------------------------------------------------------
+  500 FORMAT(/,' Error condition or warning reported')
+  520 FORMAT(/,' File "',a11,
+     &'" contains a description of the error or warning')
+C     ---------------------------------------------------------------
+C
+C-----CLOSE ERROR FILE, DELETE IF EMPTY, KEEP IF NOT.
+C      FN = 'mf2kerr.p00'
+C     APPEND_PID called by Eva Sinha
+C      FILENAME=FN
+C      CALL APPEND_PID(FILENAME)
+C      IF (IERR.EQ.0) THEN
+C        CLOSE(IERRU)
+C        OPEN(UNIT=IERRU,FILE=FILENAME, STATUS='UNKNOWN')
+C        OPEN(UNIT=IERRU,FILE=FN)
+C        CLOSE(UNIT=IERRU,STATUS='DELETE')
+C      ELSE
+C        WRITE(*,500)
+C        WRITE(*,520) FN
+C        CLOSE(UNIT=IERRU)
+C      ENDIF
+C
+C-----CLOSE ALL OTHER FILES
+      DO 340 I=1,MAXUNIT
+        IF (I .NE. 6) THEN   !IF LOOP ADDED BY EVA SINHA
+           INQUIRE (UNIT=I,OPENED=LOP)
+           IF (LOP) CLOSE (I)
+        END IF          
+  340 CONTINUE
+
+      RETURN  ! Added by Eva Sinha
+c     STOP ! Commented by Eva Sinha
+      END
+C=======================================================================
+      SUBROUTINE PLL1DE(IERRU,IOUT,IOUTG)
+C     VERSION 20000215 ERB
+C     ******************************************************************
+C     CLOSE AND DELETE FILE THAT WAS OPENED TO HOLD WARNINGS AND ERROR
+C     MESSAGES.  THIS ROUTINE SHOULD BE CALLED ONLY IF IERR = 0
+C     ******************************************************************
+C        SPECIFICATIONS:
+C     ------------------------------------------------------------------
+      USE MPI_MODULE
+      CHARACTER*12 FN, FILENAME
+C     ---------------------------------------------------------------
+C
+C-----CLOSE AND DELETE ERROR FILE.
+C      FN = 'mf2kerr.p00'
+C      APPEND_PID called by Eva Sinha
+C      FILENAME = FN
+C      CALL APPEND_PID(FILENAME)
+C      CLOSE(IERRU)
+C      OPEN(UNIT=IERRU,FILE=FILENAME, STATUS='UNKNOWN')
+C      OPEN(UNIT=IERRU,FILE=FN)
+C      CLOSE(UNIT=IERRU,STATUS='DELETE')
+C
+      RETURN
+      END
+

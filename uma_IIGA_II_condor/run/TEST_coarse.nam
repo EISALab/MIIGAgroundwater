@@ -1,0 +1,12 @@
+LIST           26  optdemo_coarse.lst
+BAS6         1 TEST_coarse.ba6
+BCF6        11 TEST_coarse.bc6
+OC             10  optdemo_coarse.oc
+DATA(BINARY)   30  optdemo_coarse.ufh
+DATA(BINARY)   40  optdemo_coarse.ccf
+DATA(BINARY)   51  head2002_coarse.ufh
+PCG            12  optdemo_coarse.pcg
+WEL            13  optdemo.wel
+RCH            20  optdemo_coarse.rch
+LMT6            29  optdemo_coarse.lmt
+DIS         14 TEST_coarse.dis

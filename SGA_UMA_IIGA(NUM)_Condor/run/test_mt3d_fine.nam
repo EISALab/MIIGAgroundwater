@@ -1,0 +1,28 @@
+#
+# MT3DMS 4.0 Name file
+#
+
+# Standard output file
+LIST  0 optdemo_fine.out
+
+# Transport package input files
+BTN   0 optdemo_fine.btn
+ADV   0 optdemo_fine.adv
+DSP   0 optdemo_fine.dsp
+SSM   0 optdemo_fine.ssm
+RCT   0 optdemo_fine.rct
+GCG   0 optdemo_fine.gcg
+
+# Flow-Transport Link input file
+FTL   0 optdemo_fine.ftl
+
+# Uncomment the following lines to override
+# the default names of optional MT3DMS output files
+# mt3d001.ucn, mt3d001.obs, mt3d001.mas, mt3d.cnf.
+# The unit numbers for these files are preset in the
+# MT3DMS code.
+
+# data(binary) 201 species1.ucn
+# data         401 species1.obs
+# data         601 species1.mas
+# data         17  model_a.cnf

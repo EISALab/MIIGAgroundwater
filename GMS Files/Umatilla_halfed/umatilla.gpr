@@ -1,0 +1,4 @@
+PROJECT
+MODFLOW	"mytestcase.mfs"
+MT3D	"mytestcase2.mts"
+STNGS	"umatilla.ini"

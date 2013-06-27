@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mf2k_ga - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Evasinha\LOCALS~1\Temp\RSPCD.tmp" with contents
+[
+/compile_only /nologo /warn:nofileopt /module:"Release/" /object:"Release/" 
+"G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90"
+]
+Creating temporary file "C:\DOCUME~1\Evasinha\LOCALS~1\Temp\RSPCE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/mf2k_ga.pdb" /machine:I386 /out:"Release/mf2k_ga.exe" 
+".\Release\amg1r5.obj"
+".\Release\ctime.obj"
+".\Release\de45.obj"
+".\Release\fhb1.obj"
+".\Release\gage5.obj"
+".\Release\glo1bas6.obj"
+".\Release\gwf1bas6.obj"
+".\Release\gwf1bcf6.obj"
+".\Release\gwf1chd6.obj"
+".\Release\gwf1drn6.obj"
+".\Release\gwf1drt1.obj"
+".\Release\gwf1ets1.obj"
+".\Release\gwf1evt6.obj"
+".\Release\gwf1ghb6.obj"
+".\Release\gwf1hfb6.obj"
+".\Release\gwf1huf1.obj"
+".\Release\gwf1ibs6.obj"
+".\Release\gwf1lpf1.obj"
+".\Release\gwf1rch6.obj"
+".\Release\gwf1riv6.obj"
+".\Release\gwf1str6.obj"
+".\Release\gwf1wel6.obj"
+".\Release\hydmod.obj"
+".\Release\lak3.obj"
+".\Release\lmg1.obj"
+".\Release\lmt6.obj"
+".\Release\memchk.obj"
+".\Release\mf2k.obj"
+".\Release\mt3dms4.obj"
+".\Release\mt_adv4.obj"
+".\Release\mt_btn4.obj"
+".\Release\mt_dsp4.obj"
+".\Release\mt_fmi4.obj"
+".\Release\mt_gcg4.obj"
+".\Release\mt_rct4.obj"
+".\Release\mt_ssm4.obj"
+".\Release\mt_utl4.obj"
+".\Release\objfunc.obj"
+".\Release\objfunc_coarse.obj"
+".\Release\obs1adv2.obj"
+".\Release\obs1bas6.obj"
+".\Release\obs1drn6.obj"
+".\Release\obs1drt1.obj"
+".\Release\obs1ghb6.obj"
+".\Release\obs1riv6.obj"
+".\Release\obs1str6.obj"
+".\Release\para-non.obj"
+".\Release\params.obj"
+".\Release\parutl1.obj"
+".\Release\pcg2.obj"
+".\Release\pes1bas6.obj"
+".\Release\pes1gau1.obj"
+".\Release\res1.obj"
+".\Release\sen1bas6.obj"
+".\Release\sen1chd6.obj"
+".\Release\sen1drn6.obj"
+".\Release\sen1drt1.obj"
+".\Release\sen1ets1.obj"
+".\Release\sen1evt6.obj"
+".\Release\sen1ghb6.obj"
+".\Release\sen1hfb6.obj"
+".\Release\sen1huf1.obj"
+".\Release\sen1lpf1.obj"
+".\Release\sen1rch6.obj"
+".\Release\sen1riv6.obj"
+".\Release\sen1str6.obj"
+".\Release\sen1wel6.obj"
+".\Release\sip5.obj"
+".\Release\sor5.obj"
+".\Release\uma.obj"
+".\Release\utl6.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Evasinha\LOCALS~1\Temp\RSPCE.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90
+G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90(2212) : Warning: Routine RAN3 is not called and has been eliminated
+   subroutine ran3(idum,rand)
+--------------^
+G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90(2269) : Warning: Routine RAN5 is not called and has been eliminated
+   subroutine ran5(idum,rand)
+--------------^
+G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90(2325) : Warning: Routine RAN6 is not called and has been eliminated
+   subroutine ran6(idum,rand)
+--------------^
+G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90(2412) : Warning: Routine SAHGA is not called and has been eliminated
+   subroutine SAHGA(fev,feve,nind,lsind,Succ,DeltaSGA,best0)
+--------------^
+G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90(2584) : Warning: Routine INITEVOLUTION is not called and has been eliminated
+   subroutine InitEvolution(nind,lb,lsind)
+--------------^
+G:\Umatilla_Case\Felipe_Final Phase\Phase 3\SGA - Full\uma.f90(2648) : Warning: Routine BALDWIN is not called and has been eliminated
+   subroutine Baldwin(nind,lsind,Succ,lb)
+--------------^
+Linking...
+
+
+
+<h3>Results</h3>
+mf2k_ga.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

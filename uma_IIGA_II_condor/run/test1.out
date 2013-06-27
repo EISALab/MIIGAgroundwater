@@ -1,0 +1,60 @@
+
+ The cleanup year for RDX:     0
+
+ The cleanup year for TNT:     0
+
+     The Capital Costs of New Wells (thousand of dollars)
+            75.000
+
+     The Capital Costs of New Recharge Basins (thousand of dollars)
+            25.000
+
+     The Capital Costs of New GAC Units (thousand of dollars)
+             0.000
+
+     The Fixed Costs of Labor (thousand of dollars)
+          1077.390
+
+     The Fixed Costs of Electricity (thousand of dollars)
+            16.365
+
+     The Variable Costs of Electricity for Operating Wells (thousand of dollars)
+            78.930
+
+     The Variable Costs of Changing GAC Units (thousand of dollars)
+             5.009
+
+     The Variable Costs of Sampling (thousand of dollars)
+           681.893
+
+     The Objective Function Value (thousands of dollars) for Formulation #  1
+          1959.587
+
+
+     The Objective Function Value for Formulation  1
+          Modeling Year          Total Mass (kg)
+          -------------          ---------------
+              1                     0.576176E+02
+              2                     0.550028E+02
+              3                     0.537788E+02
+              4                     0.533668E+02
+              5                     0.534265E+02
+
+     The Pumping Capacity Constraint Satisfied
+
+     The Pumping-Recharge Balance Constraint Satisfied
+
+     The Buffer Zone Constraint Satisfied
+
+
+     --- Maximum Number of New Wells Constraint ---
+
+     Total Number of New Wells Ever Installed
+              1
+
+     The Maximum Number of New Wells Constraint Satisfied
+
+     Total Number of New Recharge Basins Installed
+              1
+
+     The Maximum Number of New Recharge Basins Constraint Satisfied

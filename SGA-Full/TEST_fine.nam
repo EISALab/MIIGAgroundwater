@@ -1,0 +1,9 @@
+LIST           26  optdemo_fine.lst
+BAS6         1 TEST_fine.ba6
+BCF6        11 TEST_fine.bc6
+OC             10  optdemo_fine.oc
+PCG            12  optdemo_fine.pcg
+WEL            13  optdemo.wel
+RCH            20  optdemo_fine.rch
+LMT6            29  optdemo_fine.lmt
+DIS         14 TEST_fine.dis

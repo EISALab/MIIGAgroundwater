@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+   FILENAMES=`ls *.*`
+    echo $FILENAMES
+    for (( PID=0; PID<=4; PID++ )); do
+	echo in while
+	for NAME in $FILENAMES; do
+#	    echo NAME: $NAME
+#	    echo PID:  $PID
+	    cp $NAME ${NAME}.p$PID
+	done
+    done

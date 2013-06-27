@@ -1,0 +1,23 @@
+MODSUP
+IJK -y +x -z
+NAME   99 "mytestcase.mfn"
+LAY "mytestcase.lyr"
+MT3D   29 "mytestcase.hff"
+ORIG 0.0 0.0 0.0
+ROTZ 0
+LAYER   0      534.975000 (10G15.6)
+DMAT 1
+MPSC 1 0 0
+MTRN 1 0 0
+MHC 1 0 0
+MBE 1 0 0
+MLK 1 0 0
+MSSC 1 0 0
+MTE 1 0 0
+MWDF 1 0 0
+INVMOD 0
+NOCONVSTP 0
+HDRYBOT 0
+REFTIME  y 0 0 0 0 0 0 0
+UNITS "ft"	"yr"	"kg"	"lb"	"ppb"
+USESHEAD 0

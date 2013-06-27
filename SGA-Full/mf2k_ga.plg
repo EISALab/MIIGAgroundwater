@@ -1,0 +1,265 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mf2k_ga - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\evasinha\LOCALS~1\Temp\RSP104.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\utl6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\params.f90"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\uma.f90"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sor5.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sip5.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1wel6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1str6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1riv6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1rch6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1lpf1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1huf1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1hfb6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1ghb6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1evt6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1ets1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1drt1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1drn6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1chd6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1bas6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\res1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\pes1gau1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\pes1bas6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\pcg2.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\parutl1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\para-non.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1str6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1riv6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1ghb6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1drt1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1drn6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1bas6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1adv2.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\objfunc_coarse.f90"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\objfunc.f90"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_utl4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_ssm4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_rct4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_gcg4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_fmi4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_dsp4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_btn4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_adv4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt3dms4.for"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\mf2k.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\memchk.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\lmt6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\lmg1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\lak3.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\hydmod.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1wel6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1str6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1riv6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1rch6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1lpf1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1ibs6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1huf1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1hfb6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1ghb6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1evt6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1ets1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1drt1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1drn6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1chd6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1bcf6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1bas6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\glo1bas6.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\gage5.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\fhb1.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\de45.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\ctime.f"
+"C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f"
+]
+Creating temporary file "C:\DOCUME~1\evasinha\LOCALS~1\Temp\RSP105.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/mf2k_ga.pdb" /debug /machine:I386 /out:"Debug/mf2k_ga.exe" /pdbtype:sept 
+".\Debug\amg1r5.obj"
+".\Debug\ctime.obj"
+".\Debug\de45.obj"
+".\Debug\fhb1.obj"
+".\Debug\gage5.obj"
+".\Debug\glo1bas6.obj"
+".\Debug\gwf1bas6.obj"
+".\Debug\gwf1bcf6.obj"
+".\Debug\gwf1chd6.obj"
+".\Debug\gwf1drn6.obj"
+".\Debug\gwf1drt1.obj"
+".\Debug\gwf1ets1.obj"
+".\Debug\gwf1evt6.obj"
+".\Debug\gwf1ghb6.obj"
+".\Debug\gwf1hfb6.obj"
+".\Debug\gwf1huf1.obj"
+".\Debug\gwf1ibs6.obj"
+".\Debug\gwf1lpf1.obj"
+".\Debug\gwf1rch6.obj"
+".\Debug\gwf1riv6.obj"
+".\Debug\gwf1str6.obj"
+".\Debug\gwf1wel6.obj"
+".\Debug\hydmod.obj"
+".\Debug\lak3.obj"
+".\Debug\lmg1.obj"
+".\Debug\lmt6.obj"
+".\Debug\memchk.obj"
+".\Debug\mf2k.obj"
+".\Debug\mt3dms4.obj"
+".\Debug\mt_adv4.obj"
+".\Debug\mt_btn4.obj"
+".\Debug\mt_dsp4.obj"
+".\Debug\mt_fmi4.obj"
+".\Debug\mt_gcg4.obj"
+".\Debug\mt_rct4.obj"
+".\Debug\mt_ssm4.obj"
+".\Debug\mt_utl4.obj"
+".\Debug\objfunc.obj"
+".\Debug\objfunc_coarse.obj"
+".\Debug\obs1adv2.obj"
+".\Debug\obs1bas6.obj"
+".\Debug\obs1drn6.obj"
+".\Debug\obs1drt1.obj"
+".\Debug\obs1ghb6.obj"
+".\Debug\obs1riv6.obj"
+".\Debug\obs1str6.obj"
+".\Debug\para-non.obj"
+".\Debug\params.obj"
+".\Debug\parutl1.obj"
+".\Debug\pcg2.obj"
+".\Debug\pes1bas6.obj"
+".\Debug\pes1gau1.obj"
+".\Debug\res1.obj"
+".\Debug\sen1bas6.obj"
+".\Debug\sen1chd6.obj"
+".\Debug\sen1drn6.obj"
+".\Debug\sen1drt1.obj"
+".\Debug\sen1ets1.obj"
+".\Debug\sen1evt6.obj"
+".\Debug\sen1ghb6.obj"
+".\Debug\sen1hfb6.obj"
+".\Debug\sen1huf1.obj"
+".\Debug\sen1lpf1.obj"
+".\Debug\sen1rch6.obj"
+".\Debug\sen1riv6.obj"
+".\Debug\sen1str6.obj"
+".\Debug\sen1wel6.obj"
+".\Debug\sip5.obj"
+".\Debug\sor5.obj"
+".\Debug\uma.obj"
+".\Debug\utl6.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\evasinha\LOCALS~1\Temp\RSP105.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\utl6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\params.f90
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\uma.f90
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sor5.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sip5.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1wel6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1str6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1riv6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1rch6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1lpf1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1huf1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1hfb6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1ghb6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1evt6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1ets1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1drt1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1drn6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1chd6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\sen1bas6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\res1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\pes1gau1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\pes1bas6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\pcg2.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\parutl1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\para-non.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1str6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1riv6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1ghb6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1drt1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1drn6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1bas6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\obs1adv2.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\objfunc_coarse.f90
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\objfunc.f90
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_utl4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_ssm4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_rct4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_gcg4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_fmi4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_dsp4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_btn4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt_adv4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mt3dms4.for
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\mf2k.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\memchk.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\lmt6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\lmt6.f(2034) : Warning: Variable IMT3D is used before its value has been defined
+      CLOSE (IMT3D)
+-------------^
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\lmg1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\lak3.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\hydmod.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1wel6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1str6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1riv6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1rch6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1lpf1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1ibs6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1huf1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1hfb6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1ghb6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1evt6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1ets1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1drt1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1drn6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1chd6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1bcf6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gwf1bas6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\glo1bas6.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\gage5.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\fhb1.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\de45.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\ctime.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f(1181) : Warning: In the call to RWSRT, actual argument #13 does not match the type and kind of the corresponding dummy argument.
+     +             IFG,A(JTRST),TIME,NDJTR,IUM,MDJTR)
+-----------------------^
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f(1194) : Warning: In the call to PCOL, actual argument #11 does not match the type and kind of the corresponding dummy argument.
+        CALL PCOL(K-1,IERR,IA,JA,IW,IMIN,IMAX,IMAXW,ICG,IFG,U(IRST),
+------------------------------------------------------------^
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f(1195) : Warning: In the call to PCOL, actual argument #12 does not match the type and kind of the corresponding dummy argument.
+     +            A(JTRST),TIME,NDICG,NDIR,IUM,MDICG,MDIR,IIAS)
+------------------^
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f(1201) : Warning: In the call to PWINT, actual argument #15 does not match the type and kind of the corresponding dummy argument.
+     +             IMAXW,IFG,ICG,U(IRST),TIME,IERR,IROW0,NCOLX,
+---------------------------------^
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f(1209) : Warning: In the call to OPDFN, actual argument #14 does not match the type and kind of the corresponding dummy argument.
+     +             IFG,U(IRST),NSTCOL,NCOLX,TIME,NDA,NDJA,IUM,
+-----------------------^
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f(2953) : Warning: In the call to NDRV, actual argument #11 does not match the type and kind of the corresponding dummy argument.
+     +            JA(JLO),A(JLO),F(ILO),U(ILO),NSP,A(JHI+1),A(JHI+1),
+---------------------------------------------------^
+C:\Documents and Settings\evasinha\Desktop\SGA-Full\amg1r5.f(3019) : Warning: In the call to NDRV, actual argument #11 does not match the type and kind of the corresponding dummy argument.
+     +            JA(JLO),A(JLO),F(ILO),U(ILO),NSP,A(JHI+1),A(JHI+1),
+---------------------------------------------------^
+Linking...
+
+
+
+<h3>Results</h3>
+mf2k_ga.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>

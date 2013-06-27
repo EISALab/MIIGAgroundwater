@@ -1,0 +1,11 @@
+LIST           26  mytestcase2.lst
+BAS             1  mytestcase2.bas
+BCF            11  mytestcase2.bcf
+OC             10  mytestcase2.oc
+DATA(BINARY)   30  mytestcase2.ufh
+DATA(BINARY)   40  mytestcase2.ccf
+DATA(BINARY)   51  head2002.ufh
+PCG            12  mytestcase2.pcg
+WEL            13  mytestcase2.wel
+RCH            20  mytestcase2.rch
+LMT            29  mytestcase2.ftl

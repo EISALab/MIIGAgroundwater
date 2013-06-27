@@ -1,0 +1,6 @@
+PROJECT
+MODFLOW	"mytestcase.mfs"
+MT3D	"mytestcase2.mts"
+PAL	"umatilla.pal"
+DATA	"umatilla3g.dat"
+STNGS	"umatilla.ini"
